@@ -1,0 +1,21 @@
+{
+  "name": "Projeto Hospsete",
+  "homepage": "https://github.com/tcr235/projeto-hospsete",
+  "authors": [
+    "Thiago <thiagoconterocha@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}
