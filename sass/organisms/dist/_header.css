@@ -1,0 +1,17 @@
+header .logo {
+  float: left;
+}
+header .logo a img {
+  width: 61px;
+  height: 61px;
+}
+header .links {
+  float: right;
+}
+header .links nav ul li {
+  display: inline-block;
+}
+header .links nav ul li a {
+  color: white;
+  text-transform: uppercase;
+}

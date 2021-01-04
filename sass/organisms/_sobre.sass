@@ -1,0 +1,51 @@
+main
+    +breakpoint($intermediario)
+        .img-fundo
+            display: none
+    margin-top: 0
+
+    .img-fundo
+        position: absolute
+        background-size: cover
+        repeat: no-repeat
+        width: 35.9em
+        margin-top: 0
+        padding-top: 0
+        z-index: -1
+
+section.apresentacao
+    margin: 3em
+    margin-top: 0
+    padding-top: 3em
+    
+    h2
+        +flexbox
+        +align-items(center)
+        color: $verde
+        margin-left: 18%
+        font-size: 220%
+        text-decoration: underline
+        text-decoration-color: $azul
+
+    .textos
+        +make-sm-column(8)
+        +make-sm-column-offset(2)
+        font-size: 140%
+        text-align: left
+        color: $azul
+
+    .botao-medio
+        display: table
+        font-size: 140%
+        padding: 1% 1%
+        margin: 1em auto
+        text-align: center
+        background-color: $verde
+        color: #FFFFFF
+        border: none
+        border-radius: 5px
+        transition: 0.5s all
+    
+    .botao-medio:hover
+        color: $azul
+        transform: scale(1.1)

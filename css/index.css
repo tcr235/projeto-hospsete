@@ -1,0 +1,11 @@
+/* ======== Cores */
+/* ======== Font */
+/* ======== Outros */
+/* ======== Background Color Opacity */
+/* ======== Columns */
+section.apresentacao h2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }

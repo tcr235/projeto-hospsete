@@ -1,0 +1,57 @@
+header
+    +clearfix
+
+    min-height: 345px
+
+    background:
+        image: url("../images/img-fundo-nav.jpg")
+        position: top center
+        repeat: no-repeat
+        color: $azul
+        //attachment:
+        size: cover
+
+    .logo
+        float: left
+
+        img
+            margin: 27px 0 0 0
+            width: 61px
+            height: 61px
+
+    .links
+        float: right
+        nav
+            +breakpoint($tablet)
+                display: none
+
+            +breakpoint($celular)
+                display: none
+            ul
+
+                li
+                    display: inline-block
+                    margin: 51px 20px 0 0
+                    transition: 0.5s all
+
+
+                    a
+                        color: $branco
+                        text-transform: uppercase
+                
+                    a:hover
+                        color: $verde
+                
+                li:hover
+                    transform: scale(1.2)
+            
+            
+
+    h1
+        clear: both
+
+        img
+            margin: 20px auto 0 auto
+            display: block
+            
+    
