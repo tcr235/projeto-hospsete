@@ -5,9 +5,6 @@
 /* ======== Columns */
 main {
   margin-top: 0; }
-  @media (max-width: 1200px) {
-    main .img-fundo {
-      display: none; } }
   main .img-fundo {
     position: absolute;
     background-size: cover;
@@ -66,3 +63,7 @@ section.apresentacao {
   section.apresentacao .botao-medio:hover {
     color: #16165a;
     transform: scale(1.1); }
+
+@media (max-width: 1200px) {
+  .img-fundo {
+    display: none; } }
